@@ -1,0 +1,148 @@
+
+#Discord Commands
+bestmodlist:
+  prompt: ["best modlist", "best modlist ever", "best modlist ever made", "best modlist ever created"]
+  text: /tags/permanent/general/bestmodlist.md
+  image: /tags/images/curseadelica.webp
+it_dead:
+    prompt: ["ever coming back", "gone for good", "is it dead"]
+    text: tags/permanent/general/it_is_dead.md
+    image_url: main/tags/images/Itsdead.png
+no_access:
+    prompt: ["no access"]
+    text: /tags/permanent/general/no_access.md
+#Wabbajack Commands
+api:
+    log: true
+    prompt: ["Remaining Limit: 0"]
+    text: /tags/permanent/general/API.md
+Compatibility:
+    prompt: ["work on gog", "use gog", "work on epic", "use epic"]
+    text: /tags/permanent/general/Compatibility.md 
+folder:
+    prompt: ["where do i run", "where do i put", "what folder"]
+    text: tags/permanent/general/folder.md
+gamepass:
+    prompt: ["work on gamepass", "use gamepass"]
+    text: tags/permanent/general/gamepass.md
+hanging_downloads:
+  prompt: ["downloads stopped", "downloads stuck", "downloads frozen", "downloads hanging"]
+  text: tags/permanent/general/Hang.md
+language:
+    log: true
+    prompt : ["Skyrim_Default.ini"]
+    text: tags/permanent/general/language.md
+    image_url: tags/images/language.png
+maintenance:
+    prompt : ["how long does maintenance take", "how long is maintenance", "maintenance time", "under maintenance", "in maintenance"]
+    text: tags/permanent/general/maintenance.md
+modlists:
+    prompt: ["can i combine modlists", "can i merge modlists", "can i use multiple modlists", "can i combine two modlists", "can i merge"]
+    text: tags/permanent/general/modlists.md  
+nexus:
+  prompt: ["do I have to click every", "do I have to get premium", "do i have to pay for premium", "do I need premium", "do I need to click every file", "do I have to click every file on nexus"]
+  text: tags/permanent/general/nexus.md
+path_not_found:
+  log: true
+  prompt: ['Could not find a part of the path']
+  text: tags/permanent/general/Path.md
+refresh_nexus_login:
+  log: true
+  prompt: ["Too Many Requests", "ddos", "banned"]
+  text: tags/permanent/general/refresh_nexus_login.md
+  image_url: tags/images/relog.png
+sanitycheck:
+  log: true
+  prompt: ["sanity check", "sanitycheck", "sanity check failed", "sanity check error"]
+  text: tags/permanent/general/sanitycheck.md
+stuck:
+    prompt: ["stuck on downloading", "stuck on installing", "stuck on extracting", "stuck on checking", "its stuck", "it's stuck", "its frozen", "it's frozen", "stuck on downloading files", "stuck on installing files", "stuck on extracting files", "stuck on checking files"]
+    text: tags/permanent/general/Stuck.md
+texconv:
+  log: true
+  logprompt: ["Exit Code 1", "error executing"]
+  prompt: ["texconv", "texconv.exe", "texconv error", "texconv failed", "texconv not found"]
+  text: tags/permanent/general/texconv.md
+update_modlist:
+  prompt: ["update a modlist", "how to update"]
+  text: tags/permanent/general/update_modlist.md
+wjlog:
+    text: tags/permanent/general/wjlog.md
+    image_url: tags/images/wjlognew.png
+wjreset:
+    text: tags/permanent/general/wjreset.md
+wjtutorial:
+    text: tags/permanent/general/wjtutorial.md
+#MO2 Commands
+dontunlock:
+    prompt: ["can i unlock", "mod organizer is locked", "modorganizer is locked"]
+    text: tags/permanent/general/dontunlock.md
+    image_url: tags/images/dontunlock.png
+#Windows & General Troubleshooting
+antivirus:
+    text: tags/permanent/general/antivirus.md  
+cdn:
+    text: tags/permanent/general/cdn.md
+dotnet:
+    text: tags/permanent/general/dotnet.md
+learn2mod:
+  prompt: ["can i add", "can i add mods", "can i add a mod", "how to add mods", "how to add a mod"]
+  text: tags/permanent/general/how_to_mod.md
+locale:
+    text: tags/permanent/general/locale.md
+pagefile:
+    text: tags/permanent/general/pagefile.md
+scaling:
+    prompt: ["zoomed in"]
+    text: tags/permanent/general/scaling.md
+    image_url: tags/images/scaling.webp
+steamlibrary:
+    text: tags/permanent/general/steamlibrary.md
+uac:
+  prompt: ["run wabbajack as admin"]
+  text: tags/permanent/general/uac.md
+  image_url: tags/images/uac.png
+vc:
+    text: tags/permanent/general/vc.md
+verify_game_files:
+  text: tags/permanent/general/verify_game_files.md
+vpn:
+    text: tags/permanent/general/vpn.md
+webv:
+    prompt: ["white page", "white screen", "blank page", "blank screen", "webv", "webv error", "webv not working", "webv not loading"]
+    text: tags/permanent/general/Webv.md
+winupdate:
+    text: tags/permanent/general/winupdate.md
+wjcrash:
+    text: tags/permanent/general/winupdate.md
+#Game Specific Commands
+curios:
+    log: true
+    logprompt: ["Missing game file Data_ccbgssse037-curios.esl"]
+    prompt: ["curios", "Data_ccbgssse037-curios"]
+    text: tags/permanent/game/skyrim/curios.md
+aecc:
+  log: true
+  prompt: ["missing game file data_ccbgssse002-exoticarrows.esl", "missing game file data_ccbgssse007-chrysamere.esl", "missing game file data_ccmtysse001-knightsofthenine.esl", "missing game file data_ccbgssse003-zombies.esl", "missing game file data_ccbgssse004-ruinsedge.esl", "missing game file data_ccbgssse019-staffofsheogorath.esl", "missing game file data_ccbgssse006-stendarshammer.esl", "missing game file data_ccbgssse010-petdwarvenarmoredmudcrab.esl", "missing game file data_ccqdrsse002-firewood.esl", "missing game file data_ccfsvsse001-backpacks.esl", "missing game file data_ccbgssse021-lordsmail.esl", "missing game file data_ccbgssse035-petnhound.esl", "missing game file data_ccbgssse018-shadowrend.esl", "missing game file data_cceejsse001-hstead.esm", "missing game file data_cceejsse002-tower.esl", "missing game file data_ccedhsse001-norjewel.esl", "missing game file data_ccbgssse014-spellpack01.esl", "missing game file data_ccvsvsse002-pets.esl", "missing game file data_ccbgssse037-curios.esl", "missing game file data_ccbgssse036-petbwolf.esl", "missing game file data_ccbgssse045-hasedoki.esl", "missing game file data_ccbgssse034-mntuni.esl", "missing game file data_ccffbsse001-imperialdragon.esl", "missing game file data_ccbgssse043-crosselv.esl", "missing game file data_cctwbsse001-puzzledungeon.esm", "missing game file data_ccvsvsse001-winter.esl", "missing game file data_ccbgssse008-wraithguard.esl", "missing game file data_ccmtysse002-ve.esl", "missing game file data_ccpewsse002-armsofchaos.esl", "missing game file data_cceejsse003-hollow.esl", "missing game file data_ccedhsse002-splkntset.esl", "missing game file data_ccbgssse016-umbra.esm", "missing game file data_ccbgssse062-ba_dwarvenmail.esl", "missing game file data_ccbgssse057-ba_stalhrim.esl", "missing game file data_ccbgssse013-dawnfang.esl", "missing game file data_ccffbsse002-crossbowpack.esl", "missing game file data_ccbgssse051-ba_daedricmail.esl", "missing game file data_ccbgssse060-ba_dragonscale.esl", "missing game file data_ccbgssse063-ba_ebony.esl", "missing game file data_ccbgssse064-ba_elven.esl", "missing game file data_ccbgssse058-ba_steel.esl", "missing game file data_ccbgssse041-netchleather.esl", "missing game file data_ccbgssse031-advcyrus.esm", "missing game file data_ccbgssse040-advobgobs.esl", "missing game file data_ccbgssse025-advdsgs.esm", "missing game file data_cceejsse004-hall.esl", "missing game file data_ccbgssse020-graycowl.esl", "missing game file data_ccbgssse050-ba_daedric.esl", "missing game file data_ccbgssse059-ba_dragonplate.esl", "missing game file data_ccbgssse061-ba_dwarven.esl", "missing game file data_ccbgssse052-ba_iron.esl", "missing game file data_ccbgssse053-ba_leather.esl", "missing game file data_ccbgssse054-ba_orcish.esl", "missing game file data_ccbgssse055-ba_orcishscaled.esl", "missing game file data_ccbgssse056-ba_silver.esl", "missing game file data_cckrtsse001_altar.esl", "missing game file data_cceejsse005-cave.esm", "missing game file data_ccbgssse038-bowofshadows.esl", "missing game file data_ccvsvsse004-beafarmer.esl", "missing game file data_cccbhsse001-gaunt.esl", "missing game file data_ccqdrsse001-survivalmode.esl", "missing game file data_ccbgssse001-fish.esm", "missing game file data_ccrmssse001-necrohouse.esl", "missing game file data_ccasvsse001-almsivi.esm", "missing game file data_ccbgssse005-goldbrand.esl", "missing game file data_ccbgssse068-bloodfall.esl", "missing game file data_ccbgssse011-hrsarmrelvn.esl", "missing game file data_ccbgssse012-hrsarmrstl.esl", "missing game file data_ccafdsse001-dwesanctuary.esm", "missing game file data_ccvsvsse003-necroarts.esl", "missing game file data_ccedhsse003-redguard.esl", "missing game file data_ccbgssse066-staves.esl", "missing game file data_ccbgssse067-daedinv.esm", "missing game file data_ccbgssse069-contest.esl"]
+  text: tags/permanent/game/skyrim/aecc.md
+camo:
+    log: true
+    prompt: ["Data_ccBGSFO4003-PipBoy(Camo01)"]
+    text: tags/permanent/game/fallout4/camo.md
+creationkit:
+    log: true
+    prompt: ["data_scripts.zip"]
+    text: tags/permanent/game/skyrim/ck.md
+downgrade_creationkit:
+    text: tags/temporary/game/skyrim/downgrade_creationkit.md
+fix_fnv_installscript:
+    log: true
+    prompt: ["Unable to download InstallScript.vdf", "Missing game file InstallScript.vdf"]
+    text: tags/permanent/game/falloutnewvegas/fix_fnv_installscript.md
+rayekendsanity:
+  text: tags/permanent/game/skyrim/ReyakEndSanity.md
+notenoughspace:
+    log: true
+    prompt: ["There is not enough space on the disk"]
+    text: tags/permanent/general/notenoughspace.md
+    

@@ -1,0 +1,2 @@
+### Game Folder Files
+There is a folder inside your installation folder called `Game Folder Files`, move **the contents** of this folder to the game root directory i.e. where the game `.exe` is located.
