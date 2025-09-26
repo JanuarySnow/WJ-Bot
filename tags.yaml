@@ -48,7 +48,7 @@ path_not_found:
   text: tags/permanent/general/Path.md
 refresh_nexus_login:
   log: true
-  prompt: ["Too Many Requests", "ddos", "banned"]
+  prompt: ["Too Many Requests", "ddos", "banned", "Bad Request"]
   text: tags/permanent/general/refresh_nexus_login.md
   image_url: tags/images/relog.png
 sanitycheck:
@@ -60,7 +60,7 @@ stuck:
     text: tags/permanent/general/Stuck.md
 texconv:
   log: true
-  logprompt: ["Exit Code 1", "error executing"]
+  logprompt: ["Exit Code 1", "error executing", "Texconv.exe"]
   prompt: ["texconv", "texconv.exe", "texconv error", "texconv failed", "texconv not found"]
   text: tags/permanent/general/texconv.md
 update_modlist:
@@ -131,7 +131,7 @@ camo:
     text: tags/permanent/game/fallout4/camo.md
 creationkit:
     log: true
-    prompt: ["data_scripts.zip"]
+    prompt: ["data_scripts.zip","Creationkit.exe"]
     text: tags/permanent/game/skyrim/ck.md
 downgrade_creationkit:
     text: tags/temporary/game/skyrim/downgrade_creationkit.md
