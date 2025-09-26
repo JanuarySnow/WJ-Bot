@@ -28,6 +28,9 @@ gamepass:
 hanging_downloads:
   prompt: ["downloads stopped", "downloads stuck", "downloads frozen", "downloads hanging"]
   text: tags/permanent/general/Hang.md
+hashfails:
+   prompt: ["SHA1", "Hash Fail"]
+   text: tags/permanent/general/hashfails.md
 language:
     log: true
     prompt : ["Skyrim_Default.ini"]
